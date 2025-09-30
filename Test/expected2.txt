@@ -114,12 +114,12 @@ ID: 1044,	 Name: Ron,	 Midterm: 96,	 Final: 78.3,	 Total: 174.3
 ID: 1036,	 Name: Jack,	 Midterm: 95.9,	 Final: 95.1,	 Total: 191
 ID: 1020,	 Name: Tina,	 Midterm: 95.1,	 Final: 76.8,	 Total: 171.9
 ID: 1022,	 Name: Victor,	 Midterm: 93.8,	 Final: 77.3,	 Total: 171.1
-ID: 1011,	 Name: Kevin,	 Midterm: 91.7,	 Final: 83.1,	 Total: 174.8
 ID: 1021,	 Name: Uma,	 Midterm: 91.7,	 Final: 77.2,	 Total: 168.9
+ID: 1011,	 Name: Kevin,	 Midterm: 91.7,	 Final: 83.1,	 Total: 174.8
 ID: 1037,	 Name: Kara,	 Midterm: 91.4,	 Final: 86.9,	 Total: 178.3
 ID: 1045,	 Name: Sara,	 Midterm: 91,	 Final: 66.1,	 Total: 157.1
-ID: 1001,	 Name: Alice,	 Midterm: 90.7,	 Final: 91,	 Total: 181.7
 ID: 1046,	 Name: Tom,	 Midterm: 90.7,	 Final: 61.4,	 Total: 152.1
+ID: 1001,	 Name: Alice,	 Midterm: 90.7,	 Final: 91,	 Total: 181.7
 ID: 1024,	 Name: Xander,	 Midterm: 90.2,	 Final: 73.3,	 Total: 163.5
 ID: 1035,	 Name: Isla,	 Midterm: 89.7,	 Final: 62.7,	 Total: 152.4
 ID: 1008,	 Name: Hannah,	 Midterm: 89.5,	 Final: 82.4,	 Total: 171.9
@@ -194,8 +194,8 @@ ID: 1003,	 Name: Charlie,	 Midterm: 84.2,	 Final: 72.8,	 Total: 157
 ID: 1026,	 Name: Zack,	 Midterm: 85.8,	 Final: 70.8,	 Total: 156.6
 ID: 1014,	 Name: Nina,	 Midterm: 83.6,	 Final: 69.6,	 Total: 153.2
 ID: 1013,	 Name: Mike,	 Midterm: 81.8,	 Final: 69.6,	 Total: 151.4
-ID: 1041,	 Name: Olivia,	 Midterm: 77.3,	 Final: 69.2,	 Total: 146.5
 ID: 1028,	 Name: Brian,	 Midterm: 79.2,	 Final: 69.2,	 Total: 148.4
+ID: 1041,	 Name: Olivia,	 Midterm: 77.3,	 Final: 69.2,	 Total: 146.5
 ID: 1047,	 Name: Ursula,	 Midterm: 66.1,	 Final: 68,	 Total: 134.1
 ID: 1018,	 Name: Rachel,	 Midterm: 89,	 Final: 67.7,	 Total: 156.7
 ID: 1049,	 Name: Will,	 Midterm: 66.9,	 Final: 67.4,	 Total: 134.3
@@ -208,7 +208,7 @@ ID: 1032,	 Name: Fred,	 Midterm: 65.4,	 Final: 60.7,	 Total: 126.1
 ID: 1034,	 Name: Harry,	 Midterm: 66,	 Final: 60.3,	 Total: 126.3
 ID: 1038,	 Name: Liam,	 Midterm: 74.8,	 Final: 60.1,	 Total: 134.9
 ---------------------------
- Sort by Total
+Sort by Total
 ID: 1036,	 Name: Jack,	 Midterm: 95.9,	 Final: 95.1,	 Total: 191
 ID: 1009,	 Name: Ian,	 Midterm: 98.4,	 Final: 91.3,	 Total: 189.7
 ID: 1033,	 Name: Gina,	 Midterm: 97.7,	 Final: 91.7,	 Total: 189.4

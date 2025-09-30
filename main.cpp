@@ -45,7 +45,7 @@ struct SortByMidterm{
 // 기말고사 성적 높은 순서로 정렬하기 위한 Functor (SortByFinal) 정의 
 struct SortByFinal{
     int operator()(const StudentStruct& a, const StudentStruct& b) const{
-        if(a.record.final == b.record.final) return a.record.midterm > b.record.midterm;
+        if(a.record.final == b.record.final) return a.id > b.id;
         return a.record.final > b.record.final;
     }
 };
@@ -113,7 +113,6 @@ void doTest2(){
     // StudentStruct의 midterm 점수를 기준으로 높은순으로 정렬하는 lambda 함수 정의 및 std::sort를 이용해 정렬하기
     cout << "Sort by Midterm" << endl;
     auto sortByMidterm = [](StudentStruct &a, StudentStruct &b) -> int {
-        if(a.record.midterm == b.record.midterm) return a.record.final > b.record.final;
         return a.record.midterm > b.record.midterm;
     };
     std::sort(students, students + numOfStudent, sortByMidterm);
@@ -123,14 +122,15 @@ void doTest2(){
     // StudentStruct의 final 점수를 기준으로 높은순으로 정렬하는 lambda 함수 정의 및 std::sort를 이용해 정렬하기
     cout << "Sort by Final" << endl;
     auto sortByFinal = [](StudentStruct &a, StudentStruct &b) -> int {
-        if(a.record.final == b.record.final) return a.record.midterm > b.record.midterm;
+        if(a.record.final == b.record.final) 
+            return a.record.midterm > b.record.midterm;
         return a.record.final > b.record.final;
     };
     std::sort(students, students + numOfStudent, sortByFinal);
     printStudentList();
 
     // StudentStruct의 midterm+final 점수를 기준으로 알파벳 순으로 정렬하는 lambda 함수 정의 및 std::sort를 이용해 정렬하기
-    cout << " Sort by Total" << endl;
+    cout << "Sort by Total" << endl;
     auto sortByTotal = [](StudentStruct &a, StudentStruct &b) -> int {
         return (a.record.final + a.record.midterm) > (b.record.final + b.record.midterm);
     };

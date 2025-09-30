@@ -234,8 +234,8 @@ ID: 1044,	 Name: Ron,	 Midterm: 96,	 Final: 78.3,	 Total: 174.3
 ID: 1004,	 Name: David,	 Midterm: 63.7,	 Final: 77.6,	 Total: 141.3
 ID: 1022,	 Name: Victor,	 Midterm: 93.8,	 Final: 77.3,	 Total: 171.1
 ID: 1021,	 Name: Uma,	 Midterm: 91.7,	 Final: 77.2,	 Total: 168.9
-ID: 1020,	 Name: Tina,	 Midterm: 95.1,	 Final: 76.8,	 Total: 171.9
 ID: 1039,	 Name: Mona,	 Midterm: 77.8,	 Final: 76.8,	 Total: 154.6
+ID: 1020,	 Name: Tina,	 Midterm: 95.1,	 Final: 76.8,	 Total: 171.9
 ID: 1050,	 Name: Zoe,	 Midterm: 78.1,	 Final: 76,	 Total: 154.1
 ID: 1042,	 Name: Peter,	 Midterm: 97.4,	 Final: 75.3,	 Total: 172.7
 ID: 1002,	 Name: Bob,	 Midterm: 68.5,	 Final: 74.8,	 Total: 143.3

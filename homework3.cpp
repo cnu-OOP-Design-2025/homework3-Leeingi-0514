@@ -71,7 +71,3 @@ void addStudent(StudentStruct *students, int *numOfStudent, const char* name, in
         ++(*numOfStudent);        
     }    
 }
-
-
-
-
